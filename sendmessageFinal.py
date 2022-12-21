@@ -3,7 +3,7 @@ import pywhatkit
 import time
 
 
-Number = ["+917339864341","+919818911553"]
+Number = ["+91123456789","+91123456789"]
 file= 'FlatsDataset.xlsx'
 excelfile= pd.ExcelFile(file)
 column = excelfile.parse('Bangalore ')
