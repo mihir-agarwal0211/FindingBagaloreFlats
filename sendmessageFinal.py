@@ -14,14 +14,14 @@ for i in range(len(column)):
     sName=""
     secMail=""
 
-    if(str(column["Phone"][i])!="nan"):
+    if(str(column["Brokernumber"][i])!="nan"):
         if(str(column["S.no."][i])!="nan"):
             fNumber=str(column["S.no."][i])
-        if(str(column["Name"][i])!="nan"):
-            fName=str(column["Name"][i])
+        if(str(column["BrokerName"][i])!="nan"):
+            fName=str(column["BrokerName"][i])
 
         
-        secPhone=str(column["Phone"][i]).split(".")[0]
+        secPhone=str(column["Brokernumber"][i]).split(".")[0]
         # print(secPhone)
         phn = "+91" + secPhone
         # print(phn)
