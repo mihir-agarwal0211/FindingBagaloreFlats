@@ -28,7 +28,7 @@ for i in range(len(column)):
         Number.append(phn)
 
 print(len(Number))
-s = "Hi, Mihir here\nI got your number from a friend\nI am looking for 2/3 bhk in bellandur/kadubesanhalli/kasavanahalli/marathalli\nIf you get any flats for rent for bachelors, please call or message me  \nBudget: 40k for 2bhk \n60k for 3bhk"
+s = "Hi, <Put Your Name> here\nI got your number from a friend\nI am looking for 2/3 bhk in bellandur/kadubesanhalli/kasavanahalli/marathalli\nIf you get any flats for rent for bachelors, please call or message me  \nBudget: 40k for 2bhk \n60k for 3bhk"
 
 for i in Number:
     pywhatkit.sendwhatmsg_instantly(i,s)
